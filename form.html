@@ -40,7 +40,7 @@
         <input type="submit" value="Submit" />
       </div>
     </form>
-    <h1>Selection Options</h1>
+    <h2>Dropdown Selection Options</h2>
     <label for="favoriteColor">What is your favorite color?</label>
     <div>
       <select>
@@ -49,6 +49,41 @@
         <option value="colorYellow">Yellow</option>
       </select>
     </div>
-    <div></div>
+    <h3>Radio Input Selection</h3>
+    <fieldset>
+      <legend>What is your favorite meal?</legend>
+      <input type="radio" id="breakfast" name="favoriteMeal" value="meal1" />
+      <label for="breakfast">Breakfast</label>
+
+      <input type="radio" id="lunch" name="favoriteMeal" value="meal2" /><label
+        for="lunch"
+        >Lunch</label
+      >
+
+      <input type="radio" id="dinner" name="favoriteMeal" value="meal3" /><label
+        for="dinner"
+        >Dinner</label
+      >
+    </fieldset>
+
+    <fieldset>
+      <legend>Which meals do you enjoy?</legend>
+      <input type="checkbox" id="breakfast" name="favoriteMeal" value="meal1" />
+      <label for="breakfast">Breakfast</label>
+
+      <input
+        type="checkbox"
+        id="lunch"
+        name="favoriteMeal"
+        value="meal2"
+      /><label for="lunch">Lunch</label>
+
+      <input
+        type="checkbox"
+        id="dinner"
+        name="favoriteMeal"
+        value="meal3"
+      /><label for="dinner">Dinner</label>
+    </fieldset>
   </body>
 </html>
