@@ -44,7 +44,7 @@ Site Navigation
   background-color: tomato;
 }
 /*
-Site Navigation
+Site Navigation End 
 */
 
 header p {
@@ -95,3 +95,27 @@ header p {
   padding-top: 30px;
   padding-left: 50px;
 }
+
+/*
+Table Styles
+*/
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  text-align: left;
+  background-color: #869960;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+table th,
+table td {
+  border: 1px solid #869960;
+}
+/*
+Table Styles End
+*/
