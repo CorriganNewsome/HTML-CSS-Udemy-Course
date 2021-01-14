@@ -1,7 +1,51 @@
+html {
+  background-color: turquoise;
+}
+
 h1 {
   color: blue;
   text-align: center;
 }
+
+.container {
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*
+Site Navigation
+*/
+.site-nav {
+  margin-top: 20px;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 6px;
+}
+
+.site-nav a {
+  display: inline;
+  text-decoration: none;
+  color: yellow;
+  padding: 10p 20px;
+  border: 3px solid yellow;
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  background-color: tomato;
+}
+/*
+Site Navigation
+*/
 
 header p {
   color: green;
@@ -45,4 +89,9 @@ header p {
 
 .fix {
   clear: both;
+}
+
+.image {
+  padding-top: 30px;
+  padding-left: 50px;
 }
