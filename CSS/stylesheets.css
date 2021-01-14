@@ -32,3 +32,17 @@ header p {
   height: 160px;
   margin-bottom: 100px;
 }
+
+.main-area {
+  width: 66%;
+  float: left;
+}
+
+.sidebar {
+  width: 34%;
+  float: left;
+}
+
+.fix {
+  clear: both;
+}
