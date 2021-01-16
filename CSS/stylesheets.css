@@ -1,5 +1,20 @@
+/*
+Bringing in Lora Font
+*/
+@font-face {
+  font-family: Lora;
+  src: url("/Fonts//Lora/Lora-Italic-VariableFont_wght.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: turquoise;
+}
+
+body {
+  font-family: Lora, Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 
 h1 {
@@ -119,3 +134,10 @@ table td {
 /*
 Table Styles End
 */
+
+@font-face {
+  font-family: Lora;
+  src: url("/Fonts//Lora/Lora-Italic-VariableFont_wght.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
